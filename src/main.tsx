@@ -6,10 +6,10 @@ import '@fontsource/manrope/600.css'
 import '@fontsource/manrope/700.css'
 import '@fontsource/dm-mono/400.css'
 import './styles.css'
-import App from './App'
+import LearningApp from './learning/LearningApp'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <LearningApp />
   </React.StrictMode>,
 )

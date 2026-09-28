@@ -1,1 +1,1 @@
-{"root":["./src/app.test.tsx","./src/app.tsx","./src/main.tsx","./src/test/setup.ts"],"version":"5.6.3"}
+{"root":["./src/app.test.tsx","./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/learning/authprovider.test.tsx","./src/learning/authprovider.tsx","./src/learning/learningapp.test.tsx","./src/learning/learningapp.tsx","./src/learning/auth-context.ts","./src/learning/firebase.test.ts","./src/learning/firebase.ts","./src/learning/navigation.ts","./src/learning/types.ts","./src/test/setup.ts"],"version":"5.6.3"}

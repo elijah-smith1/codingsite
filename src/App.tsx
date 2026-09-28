@@ -172,7 +172,7 @@ function CourseCard({ course }: { course: Course }) {
         <span><BookOpen size={16} /> {course.lessons} lessons</span>
         <span>{course.duration}</span>
       </div>
-      <a href="#method" aria-label={`Learn how ${course.title} works`}>Explore course <ChevronRight /></a>
+      {course.id === 'javascript' ? <a href="/courses/javascript" aria-label={`Explore ${course.title}`}>Explore course <ChevronRight /></a> : <span>Coming soon</span>}
     </article>
   )
 }
